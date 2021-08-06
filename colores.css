@@ -1,0 +1,37 @@
+.red{
+    color: red;
+}
+.ring{
+    background-color: green;
+}
+.fondo{
+    background-color: skyblue;
+}
+.letras{
+   color:  white;
+}
+.rojo{
+    color: red;
+}
+.azul{
+    color: blue;
+}
+.verde{
+    color: green;
+}
+
+.transparencia{
+    text-decoration: line-through;
+}
+.saludo{
+    font-size: xx-large;
+}
+.campo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nuevo{
+    font-weight: 400;
+}
+.ayuda{
+    text-align: right;
+}
