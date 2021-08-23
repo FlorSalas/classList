@@ -24,8 +24,8 @@
 /*5)Vamos a preguntarle al usuario qué color quiere cambiar, y luego lo vamos a preguntar por cuál. (Dos input). En base a eso, nuestro javascript modificará el documento. Ejemplo: Si pide cambiar el verde por azul, los textos que antes se veían en verde ahora deberán verse en azul.
 (Nota: Se debe agregar el css correspondiente).*/
 
-// let color= document.write(`<input type="text">¿qué color desea cambiar? ¿Rojo(r), Verde(v) o Azul(a)? <button>Aceptar</button>`)
-// let cambio= document.write(`<input type="text">¿por cual? Rojo(r), Verde(v) o Azul(a)? <button>Aceptar</button>`)
+// let color= document.write(`<input type="text">¿qué color desea cambiar? ¿Rojo, Verde o Azul? <button>Aceptar</button>`)
+// let cambio= document.write(`<input type="text">¿por cual? Rojo, Verde o Azul? <button>Aceptar</button>`)
 
 // if(color==="r" && Cambio==="v")document.querySelector("rojo").classList.toggle("verde")
 // if(color==="r" && Cambio==="a")document.querySelector("rojo").classList.toggle("azul")
@@ -49,8 +49,9 @@
 
 /*7) a) Dentro del siguiente HTML, a todos los párrafos que NO tengan la clase “nuevo”, agregarle la clase “antiguo”.*/
 
-let bool= document.querySelectorAll("p").forEach(l=>l.classList.contains("nuevo"))
-if(bool){document.querySelectorAll("p").forEach(y=>y.classList.add("antiguo"))}
+// document.querySelectorAll("p").forEach(y=> {
+//    if (y.classList.contains("nuevo")!=true){
+//     y.classList.add("antiguo")}
 
 /*b) A todos los que tienen clase “rojo”, agregarles la clase “transparencia” */
 
@@ -65,21 +66,3 @@ if(bool){document.querySelectorAll("p").forEach(y=>y.classList.add("antiguo"))}
 // for(i=0;i<4;i++){
     // document.querySelectorAll("p").forEach(v=>v.classList.remove("ayuda"))
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// a  q  z
